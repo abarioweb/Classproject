@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background: #f9f9f9;
+}
+
+/* NAV */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #111;
+  color: #fff;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  padding: 50px;
+  background: #eaeaea;
+}
+
+.hero-content {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.hero-image {
+  width: 50%;
+  height: 250px;
+  background: url(image00632-1.jpg) center no-repeat;
+}
+
+.hero-text {
+  width: 50%;
+}
+
+/* ABOUT */
+.about-content {
+  display: flex;
+  gap: 20px;
+  padding: 50px;
+}
+
+.about-image {
+  width: 300px;
+  height: 400px;
+  background: url(x\ image.png) center no-repeat;
+}
+
+.about-text {
+  width: 50%;
+}
+
+/* SERVICES */
+.services {
+  padding: 50px;
+  text-align: center;
+}
+
+.service-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  width: 150px;
+}
+
+.card-img {
+  height: 100px;
+  background: url(imageassigment.jpeg) center no-repeat;
+  margin-bottom: 10px;
+}
+
+/* BANNER */
+.banner-content {
+  display: flex;
+  padding: 50px;
+  background: #007BFF;
+  color: white;
+}
+
+.banner-image {
+  width: 600px;
+  height: 400px;
+  background: url(x\ image.png) center no-repeat;
+}
+
+/* SLIDER */
+.slider {
+  padding: 50px;
+  text-align: center;
+}
+
+.slider-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.slide {
+  width: 100px;
+  height: 100px;
+  background: url(imageassigment.jpeg) center no-repeat;
+}
+
+/* TESTIMONIALS */
+.testimonial-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 50px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  background: url(x\ image.png) center no-repeat;
+  border-radius: 50%;
+  margin: auto;
+}
+
+/* BLOG */
+.blog-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 50px;
+}
+
+.blog-img {
+  height: 100px;
+  background: url(image00632-1.jpg) center no-repeat;
+  margin-bottom: 10px;
+}
+
+/* CTA */
+.cta {
+  text-align: center;
+  padding: 50px;
+  background: #28a745;
+  color: white;
+}
+
+/* CONTACT */
+.contact {
+  padding: 40px;
+  text-align: center;
+}
+
+/* FOOTER */
+.footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
